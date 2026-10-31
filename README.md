@@ -34,7 +34,19 @@ Native Swift (SwiftUI + AppKit), no dependencies, nothing leaves your Mac.
 
 ## Install
 
-There is no signed download yet, so build it from source:
+1. Download **ClipHistory-….dmg** from the
+   [latest release](https://github.com/haldunerbay/macclipboard/releases/latest) and open it.
+2. Drag **Clip History** onto **Applications**.
+3. Open Clip History from Applications. It is not notarized by Apple yet, so the first time macOS
+   says it cannot verify the app. Click **Done**, open **System Settings › Privacy & Security**,
+   scroll down and click **Open Anyway**, then **Open**. This is needed only once.
+4. Allow **Accessibility** when asked, so ↩ can paste for you.
+
+The app runs on Apple silicon and Intel. To update, quit it and replace it with the new version;
+macOS then asks for Accessibility again (remove the old Clip History entry in System Settings ›
+Privacy & Security › Accessibility and switch it on again).
+
+### Build from source
 
 ```bash
 git clone https://github.com/haldunerbay/macclipboard.git
@@ -45,7 +57,8 @@ make install
 `make install` builds a release version, signs it, copies **Clip History.app** to
 `/Applications` and starts it. It signs with your Apple Development certificate when you have one,
 otherwise ad hoc; with an ad hoc signature macOS asks for the Accessibility permission again after
-every rebuild. Other targets: `make app` (build only, into `build/`), `make run`, `make test`.
+every rebuild. Other targets: `make app` (build only, into `build/`), `make dmg` (the download
+image, for Apple silicon and Intel), `make run`, `make test`.
 
 ## Using it
 
@@ -113,6 +126,9 @@ swift build      # debug build of the executable
 
 Issues and pull requests are welcome. Please add a test with a change and keep `make test` green;
 GitHub Actions builds and tests every push and pull request.
+
+To release, push a version tag: `git tag v1.2.0 && git push origin v1.2.0`. The release workflow
+tests, builds `ClipHistory-1.2.0.dmg` and publishes it on the Releases page.
 
 ## License
 

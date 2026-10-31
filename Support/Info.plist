@@ -17,9 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.0.0</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -31,11 +29,11 @@
 			</array>
 		</dict>
 	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>14.0</string>
 	<key>LSUIElement</key>
-	<true/>
-	<key>NSHighResolutionCapable</key>
 	<true/>
 	<key>NSDesktopFolderUsageDescription</key>
 	<string>Clip History shows the screenshots saved on your Desktop in the history.</string>
@@ -43,5 +41,7 @@
 	<string>Clip History shows the screenshots saved in Documents in the history.</string>
 	<key>NSDownloadsFolderUsageDescription</key>
 	<string>Clip History shows the screenshots saved in Downloads in the history.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
 </dict>
 </plist>
