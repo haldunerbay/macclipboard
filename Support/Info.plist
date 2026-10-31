@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Clip History</string>
+	<key>CFBundleExecutable</key>
+	<string>ClipHistory</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.haldunerbay.ClipHistory</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Clip History</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.haldunerbay.ClipHistory</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>cliphistory</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Clip History shows the screenshots saved on your Desktop in the history.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Clip History shows the screenshots saved in Documents in the history.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Clip History shows the screenshots saved in Downloads in the history.</string>
+</dict>
+</plist>

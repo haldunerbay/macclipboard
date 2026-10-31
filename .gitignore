@@ -1,0 +1,11 @@
+# SwiftPM and Xcode
+.build/
+.swiftpm/
+*.xcodeproj/
+xcuserdata/
+DerivedData/
+
+# make app
+build/
+
+.DS_Store
