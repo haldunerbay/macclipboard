@@ -1,5 +1,7 @@
 # Clip History
 
+**English** | [Türkçe](README.tr.md)
+
 [![CI](https://github.com/haldunerbay/macclipboard/actions/workflows/ci.yml/badge.svg)](https://github.com/haldunerbay/macclipboard/actions/workflows/ci.yml)
 
 A small, open-source clipboard history for macOS. It lives in the menu bar, keeps everything you
