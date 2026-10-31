@@ -1,5 +1,7 @@
 # Clip History
 
+[![CI](https://github.com/haldunerbay/macclipboard/actions/workflows/ci.yml/badge.svg)](https://github.com/haldunerbay/macclipboard/actions/workflows/ci.yml)
+
 A small, open-source clipboard history for macOS. It lives in the menu bar, keeps everything you
 copy and every screenshot you take, sorts them into categories, and brings them back with
 **⇧⌘V**: type to search, pick with ↑ ↓, press ↩ to paste.
@@ -109,7 +111,8 @@ make test        # or: swift test
 swift build      # debug build of the executable
 ```
 
-Issues and pull requests are welcome. Please add a test with a change and keep `make test` green.
+Issues and pull requests are welcome. Please add a test with a change and keep `make test` green;
+GitHub Actions builds and tests every push and pull request.
 
 ## License
 
